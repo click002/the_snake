@@ -1,8 +1,7 @@
 """Игра 'Змейка'."""
 
-from random import randint
 import pygame
-
+from random import randint
 
 # Константы для размеров поля и сетки:
 SCREEN_WIDTH, SCREEN_HEIGHT = 640, 480
