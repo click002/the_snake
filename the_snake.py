@@ -57,9 +57,9 @@ class GameObject:
 class Apple(GameObject):
     """Класс для яблока в игре."""
 
-    def __init__(self, taken_positions = None):
-        """Содает яблоко со случайной позицией."""
-        super().__init__(body_color = APPLE_COLOR)
+    def __init__(self, taken_positions=None):
+        """Создает яблоко со случайной позицией."""
+        super().__init__(body_color=APPLE_COLOR)
         if taken_positions is not None:
             self.taken_positions = taken_positions
         else:
@@ -78,9 +78,10 @@ class Apple(GameObject):
             self.position = (
                 randint(0, GRID_WIDTH - 1) * GRID_SIZE,
                 randint(0, GRID_HEIGHT - 1) * GRID_SIZE
-                )
+            )
             if self.position not in self.taken_positions:
                 break
+
 
 class Snake(GameObject):
     """Класс для змейки в игре."""
@@ -140,7 +141,7 @@ class Snake(GameObject):
 
 
 def handle_keys(game_object):
-    """Обрабатывает дейсвтия пользователя."""
+    """Обрабатывает действия пользователя."""
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
