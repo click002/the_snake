@@ -21,4 +21,5 @@ python the_snake.py
 
 ---
 **Автор**
+Nikita Filin
 👨‍💻 [@click002](https://github.com/click002)
