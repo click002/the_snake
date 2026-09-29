@@ -1,2 +1,2 @@
-# the_snake
+**my first project the snake game!**
 
