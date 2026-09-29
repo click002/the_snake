@@ -20,5 +20,5 @@ python the_snake.py
 🍎 Собирай еду и не врезайся в стену!
 
 ---
-
+**Автор**
 👨‍💻 [@click002](https://github.com/click002)
